@@ -1,0 +1,109 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #3586a471 0%,
+    #88ccf1cc 100%);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Utilities Classes */
+p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+button{
+    width: 50%;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #e9e7f3ec;
+    line-height: 35px; /*para centralizar o texto com a imagem*/
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1); /*para fazer o efeito de zoom*/
+    transition: all 0.2s;
+    cursor: pointer;
+    color: rgb(53, 51, 51);
+}
+
+/* div profile */
+#profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#profile p{
+    margin-bottom: 30px;
+}
+
+.socials img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+/* Redes Sociais */
+#social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#social-media p{
+    margin-bottom: 10px;
+}
+
+#social-media button img{
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+/* 3 paragrafo */
+.paragrafo{
+    margin-top: 40px;
+}
+
+/* Footer */
+#footer{
+    margin-top: 80px;
+}
+
+#footer img{
+    width: 120px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30PX;
+}
+
+#footer a{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+}
